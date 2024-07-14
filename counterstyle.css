@@ -1,0 +1,151 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global */
+body {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 40px auto;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    /* background-color: rgb(234, 234, 234); */
+}
+
+/* Roboto Classes */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/* Main Content */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+#counterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+  padding: 40px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 16px;
+}
+
+#myCount {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.btnBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 0 0 0;
+  /* background-color: rgb(233, 233, 233); */
+  /* border: rgb(230, 230, 230) solid 1px; */
+  border-radius: 8px;
+}
+
+button {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  background-color: inherit;
+  border-radius: 4px;
+}
+
+.primCta {
+  background-color: green;
+  color: white;
+}
+
+.secoCta {
+  background-color: red;
+  color: white;
+}
+
+.tertCta {
+  background-color: rgb(211, 211, 211);
+}
