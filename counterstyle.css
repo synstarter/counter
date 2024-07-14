@@ -134,6 +134,8 @@ button {
   border: none;
   background-color: inherit;
   border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s;
 }
 
 .primCta {
@@ -141,11 +143,23 @@ button {
   color: white;
 }
 
+.primCta:hover {
+  background-color: rgb(0, 99, 0);
+}
+
 .secoCta {
   background-color: red;
   color: white;
 }
 
+.secoCta:hover {
+  background-color: rgb(210, 1, 1);
+}
+
 .tertCta {
   background-color: rgb(211, 211, 211);
+}
+
+.tertCta:hover {
+  background-color: rgb(194, 194, 194);
 }
